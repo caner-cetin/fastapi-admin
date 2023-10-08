@@ -53,6 +53,7 @@ class UsernamePasswordProvider(Provider):
                 "request": request,
                 "login_logo_url": self.login_logo_url,
                 "login_title": self.login_title,
+                "login_username_placeholder": _('login_username_placeholder') 
             },
         )
 
