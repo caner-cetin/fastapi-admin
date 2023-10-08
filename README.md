@@ -64,3 +64,9 @@ See documentation at <https://fastapi-admin-docs.long2ice.io>.
 This project is licensed under the
 [Apache-2.0](https://github.com/fastapi-admin/fastapi-admin/blob/master/LICENSE)
 License.
+
+for babel
+```bash
+pybabel extract -o fastapi_admin/locales/tr_TR/LC_MESSAGES/messages.pot --input-dirs="." -F babel.cfg
+pybabel compile -l tr_TR -d /Users/canercetin/Git/fastapi-admin/fastapi_admin/locales
+```

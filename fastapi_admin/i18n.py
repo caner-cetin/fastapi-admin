@@ -7,6 +7,7 @@ from fastapi_admin.template import templates
 
 TRANSLATIONS = {
     "en_US": Translations.load(os.path.join(BASE_DIR, "locales"), locales=["en_US"]),
+    "tr_TR": Translations.load(os.path.join(BASE_DIR, "locales"), locales=["tr_TR"]),
 }
 
 translations = TRANSLATIONS.get("en_US")
